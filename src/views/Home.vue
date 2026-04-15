@@ -34,6 +34,10 @@
       <div class="hero-footer">
         纯前端应用 · 数据本地计算
       </div>
+      
+      <div class="hero-credit">
+        Reset version, by AI and his good partner LittleHero Xuelai
+      </div>
     </div>
   </div>
 </template>
@@ -174,5 +178,12 @@ function goToTypes() {
 .hero-footer {
   font-size: 13px;
   color: #bbb;
+}
+
+.hero-credit {
+  font-size: 11px;
+  color: #ccc;
+  margin-top: 12px;
+  font-style: italic;
 }
 </style>
