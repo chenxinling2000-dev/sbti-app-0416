@@ -11,11 +11,14 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          path: sbti-app
 
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: '20'
+          working-directory: sbti-app
 
       - name: Install dependencies
         run: npm ci
