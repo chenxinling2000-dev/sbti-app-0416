@@ -1,9 +1,12 @@
 <template>
   <div class="home-page">
     <div class="hero-section">
-      <div class="hero-badge">AI 重制版</div>
       <h1 class="hero-title">SBTI 人格测试</h1>
       <p class="hero-subtitle">探索你的性格密码</p>
+      
+      <div class="hero-badge">
+        Reset version, by AI and his good partner LittleHero Xuelai
+      </div>
       
       <div class="hero-stats">
         <div class="stat-item">
@@ -33,10 +36,6 @@
       
       <div class="hero-footer">
         纯前端应用 · 数据本地计算
-      </div>
-      
-      <div class="hero-credit">
-        Reset version, by AI and his good partner LittleHero Xuelai
       </div>
     </div>
   </div>
@@ -87,10 +86,11 @@ function goToTypes() {
   padding: 6px 16px;
   background: linear-gradient(135deg, #667eea, #764ba2);
   color: #fff;
-  font-size: 12px;
-  font-weight: 600;
+  font-size: 11px;
+  font-weight: 500;
   border-radius: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 24px;
+  font-style: italic;
 }
 
 .hero-title {
@@ -178,12 +178,5 @@ function goToTypes() {
 .hero-footer {
   font-size: 13px;
   color: #bbb;
-}
-
-.hero-credit {
-  font-size: 11px;
-  color: #ccc;
-  margin-top: 12px;
-  font-style: italic;
 }
 </style>
